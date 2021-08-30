@@ -30,8 +30,8 @@ bot.loadPlugin(cmd)
 bot.on('login',function(){
 	console.log("Logged In,Developed By Huzaifa")
 	bot.chat("/login gamer321")
-  bot.chat("/minecraft:tp Gamer321123 -102.08 60.00 -85.89")
-  bot.chat("/minecraft:tp Gamer321123 -102.08 60.00 -85.89");
+        bot.chat("/minecraft:tp Gamer321123 -102.08 60.00 -85.89")
+        bot.chat("/minecraft:tp Gamer321123 -102.08 60.00 -85.89");
 });
 
 bot.on('time', function(time) {
